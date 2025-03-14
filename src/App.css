@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background: linear-gradient(135deg, #46505e, #c3cfe2);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.navbar {
+  background-color: #1e3a8a;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #facc15 !important;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  color: #0c1630;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #4b5563;
+}
+
+.btn-dark {
+  background-color: #1e3a8a;
+  border-color: #1e3a8a;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-dark:hover {
+  background-color: #facc15;
+  color: #1e3a8a;
+  transform: scale(1.05);
+}
+
+.spinner-border {
+  color: #1e3a8a;
+  width: 3rem;
+  height: 3rem;
+}
+.news-title {
+  color: #ffffff; /* White color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Adds shadow for more contrast */
+}
+
